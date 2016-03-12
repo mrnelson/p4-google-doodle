@@ -1,0 +1,81 @@
+/* Stage */
+#stage {
+/*   background: #DEC; */
+  height: 300px;
+  width: 600px;
+}
+
+.g,
+.gg,
+.d,
+.yy {
+  fill: #4885ed;
+}
+
+.o,
+.e,
+.v,
+.aa {
+  fill: #db3236;
+}
+
+.oo,
+.c {
+  fill: #f4c20d;
+}
+
+.l,
+.dd {
+  fill: #3cba54; 
+}
+
+.tright,
+.bleft {
+  fill: white;
+  stroke: green;
+  stroke-dasharray: 6;
+  stroke-dashoffset: -60;
+
+/* call animation */
+  
+  animation: ants 1s infinite linear;
+}
+
+
+.tleft,
+.bright {
+  fill: white;
+  stroke: #3cba54;
+  stroke-dasharray: 6;
+  stroke-dashoffset: 60;
+
+/* call animation */
+  
+  animation: ants 1s infinite linear;
+}
+
+@keyframes ants {
+  0% { stroke-dashoffset: -5; 
+       stroke: #3cba54;    
+  }
+  
+  25% { 
+/*     stroke-dashoffset: -45;  */
+       stroke: #f4c20d;    
+  }
+  
+  50% { 
+/*     stroke-dashoffset: -50;  */
+       stroke: #4885ed;    
+  }
+  
+   75% { 
+/*      stroke-dashoffset: -75;  */
+       stroke: #db3236;    
+  }
+  
+  100% {
+/*     stroke-dashoffset: -90;  */
+       stroke: #4885ed; 
+  
+}
